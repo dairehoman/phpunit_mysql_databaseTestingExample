@@ -12,16 +12,12 @@ SET time_zone = "+00:00";
 
 
 CREATE TABLE `products` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL PRIMARY KEY AUTOINCREMENT,
   `description` text NOT NULL,
   `price` float NOT NULL,
   `quantityInStock` int(11) NOT NULL,
   `restockQuantity` int(11) NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
-
-ALTER TABLE `products` ADD PRIMARY KEY (`id`);
-
-ALTER TABLE `products` AUTO_INCREMENT = 5
 
 
