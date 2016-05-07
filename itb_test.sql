@@ -27,7 +27,7 @@ CREATE TABLE `products` (
   `price` float NOT NULL,
   `quantityInStock` int(11) NOT NULL,
   `restockQuantity` int(11) NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
 
 -- --------------------------------------------------------

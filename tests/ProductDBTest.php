@@ -58,39 +58,39 @@ class ProductDBTest extends \PHPUnit_Extensions_Database_TestCase
     {
 
         // arrange
-        $product14 = new Product();
-        $product14->setId(14);
-        $product14->setDescription('forkHandles');
-        $product14->setPrice(9.99);
-        $product14->setQuantityInStock(5);
-        $product14->setRestockQuantity(15);
-
         $product1 = new Product();
         $product1->setId(1);
-        $product1->setDescription('nut');
-        $product1->setPrice(66);
-        $product1->setQuantityInStock(20);
-        $product1->setRestockQuantity(25);
+        $product1->setDescription('forkHandles');
+        $product1->setPrice(9.99);
+        $product1->setQuantityInStock(5);
+        $product1->setRestockQuantity(15);
 
-        $product5 = new Product();
-        $product5->setId(5);
-        $product5->setDescription('pliers');
-        $product5->setPrice(9.99);
-        $product5->setQuantityInStock(50);
-        $product5->setRestockQuantity(10);
+        $product2 = new Product();
+        $product2->setId(2);
+        $product2->setDescription('nut');
+        $product2->setPrice(66);
+        $product2->setQuantityInStock(20);
+        $product2->setRestockQuantity(25);
 
-        $product13 = new Product();
-        $product13->setId(13);
-        $product13->setDescription('hammer');
-        $product13->setPrice(999);
-        $product13->setQuantityInStock(27);
-        $product13->setRestockQuantity(7);
+        $product3 = new Product();
+        $product3->setId(3);
+        $product3->setDescription('pliers');
+        $product3->setPrice(9.99);
+        $product3->setQuantityInStock(50);
+        $product3->setRestockQuantity(10);
+
+        $product4 = new Product();
+        $product4->setId(4);
+        $product4->setDescription('hammer');
+        $product4->setPrice(999);
+        $product4->setQuantityInStock(27);
+        $product4->setRestockQuantity(7);
 
         $expectedResult = [];
-        $expectedResult[] = $product14;
         $expectedResult[] = $product1;
-        $expectedResult[] = $product5;
-        $expectedResult[] = $product13;
+        $expectedResult[] = $product2;
+        $expectedResult[] = $product3;
+        $expectedResult[] = $product4;
 
         // act
         $result = Product::getAll();
@@ -134,28 +134,28 @@ class ProductDBTest extends \PHPUnit_Extensions_Database_TestCase
         // arrange
         $expectedResult = [
             [
-                'id' => '14',
+                'id' => '1',
                 'description' => 'forkHandles',
                 'price' => '9.99',
                 'quantityInStock' => '5',
                 'restockQuantity' => '15'
             ],
             [
-                'id' => '1',
+                'id' => '2',
                 'description' => 'nut',
                 'price' => '66',
                 'quantityInStock' => '20',
                 'restockQuantity' => '25'
             ],
             [
-                'id' => '5',
+                'id' => '3',
                 'description' => 'pliers',
                 'price' => '9.99',
                 'quantityInStock' => '50',
                 'restockQuantity' => '10'
             ],
             [
-                'id' => '13',
+                'id' => '4',
                 'description' => 'hammer',
                 'price' => '999',
                 'quantityInStock' => '27',
