@@ -3,9 +3,14 @@ php:
   - '5.6'
   - '7'
 
-services: mysql
-before_install: mysql -e "create database IF NOT EXISTS itb_test;" -uroot
-before_script: mysql -u root itb_test < itb_test.sql
+services:
+  - mysql
+
+before_install:
+  - mysql -e "create database IF NOT EXISTS itb_test;" -uroot
+
+before_script:
+  - mysql -u root itb_test < itb_test.sql
 
 install: composer update
 script: phpunit
