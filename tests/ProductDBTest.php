@@ -1,4 +1,10 @@
 <?php
+
+/**
+ * @todo get MySQL autoincrement working
+ * e.g. see https://travis-ci.org/AutomatedTester/petulant-meme
+ */
+
 namespace ItbTest;
 
 use Itb\Product;
