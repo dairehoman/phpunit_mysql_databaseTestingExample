@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dr-matt-smith/phpunit_mysql_databaseTestingExample.svg?branch=master)](https://travis-ci.org/dr-matt-smith/phpunit_mysql_databaseTestingExample)
+
 # phpunit_mysql_databaseTestingExample
 
 An example project to illustrate database testing with PHPUnit. Illustrated in 10 steps.

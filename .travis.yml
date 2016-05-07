@@ -8,10 +8,14 @@ services:
 
 before_install:
   - mysql -e "create database IF NOT EXISTS itb_test;" -uroot
-
-before_script:
   - mysql -u root itb_test < itb_test.sql
 
-install: composer update
-script: phpunit
+install:
+  - composer update
+
+# before_script:
+#  - mysql -u root itb_test < itb_test.sql
+
+script:
+  - phpunit
 
