@@ -118,6 +118,7 @@ class ProductDBTest extends \PHPUnit_Extensions_Database_TestCase
         // act
         // add item to table in our test DB
         Product::insert($product);
+        Product::insert($product);
 
         // retrieve dataset from our test DB
         $productsInDatabaseAfterInsert = $this->getConnection()->createQueryTable(
