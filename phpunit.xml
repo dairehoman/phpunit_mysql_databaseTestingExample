@@ -17,8 +17,8 @@
     <php>
         <const name="DB_HOST" value="localhost"/>
         <const name="DB_NAME" value="itb_test"/>
-        <const name="DB_USER" value="fred"/>
-        <const name="DB_PASS" value="smith"/>
+        <const name="DB_USER" value="travis"/>
+        <const name="DB_PASS" value=""/>
     </php>
 
 
