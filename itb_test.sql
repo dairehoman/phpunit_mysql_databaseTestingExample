@@ -10,16 +10,6 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
---
--- Database: `itb_test`
---
-
--- --------------------------------------------------------
-
-
---
--- Table structure for table `products`
---
 
 CREATE TABLE `products` (
   `id` int(11) NOT NULL,
@@ -30,13 +20,8 @@ CREATE TABLE `products` (
 ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
 
--- --------------------------------------------------------
+ALTER TABLE `products` ADD PRIMARY KEY (`id`);
 
+ALTER TABLE `products` AUTO_INCREMENT = 5
 
-
---
--- Indexes for table `products`
---
-ALTER TABLE `products`
-  ADD PRIMARY KEY (`id`);
 
