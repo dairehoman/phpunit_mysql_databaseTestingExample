@@ -8,7 +8,7 @@ services:
 
 before_install:
 #  - mysql -e "create database IF NOT EXISTS itb_test;" -uroot
-  - mysql -u root -e create database IF NOT EXISTS itb_test
+  - mysql -u root -e "create database IF NOT EXISTS itb_test"
   - mysql -u root itb_test < itb_test.sql
 
 install:
