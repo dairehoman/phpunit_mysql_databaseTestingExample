@@ -17,7 +17,6 @@ CREATE TABLE `products` (
   `price` float NOT NULL,
   `quantityInStock` int(11) NOT NULL,
   `restockQuantity` int(11) NOT NULL,
-  PRIMARY KEY (id)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=5;
 
 
