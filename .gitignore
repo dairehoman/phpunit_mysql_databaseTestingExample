@@ -1,0 +1,6 @@
+vendor
+*.phar
+DS_STORE
+tests/coverage
+src/documentation
+.idea

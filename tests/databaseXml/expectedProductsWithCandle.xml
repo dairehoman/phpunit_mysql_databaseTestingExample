@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<dataset>
+    <table name="products">
+        <column>id</column>
+        <column>description</column>
+        <column>price</column>
+        <column>quantityInStock</column>
+        <column>restockQuantity</column>
+
+
+        <row name="products">
+            <value name="id">14</value>
+            <value name="description">forkHandles</value>
+            <value name="price">9.99</value>
+            <value name="quantityInStock">5</value>
+            <value name="restockQuantity">15</value>
+        </row>
+        <row name="products">
+            <value name="id">1</value>
+            <value name="description">nut</value>
+            <value name="price">66</value>
+            <value name="quantityInStock">20</value>
+            <value name="restockQuantity">25</value>
+        </row>
+        <row name="products">
+            <value name="id">5</value>
+            <value name="description">pliers</value>
+            <value name="price">9.99</value>
+            <value name="quantityInStock">50</value>
+            <value name="restockQuantity">10</value>
+        </row>
+        <row name="products">
+            <value name="id">13</value>
+            <value name="description">hammer</value>
+            <value name="price">999</value>
+            <value name="quantityInStock">27</value>
+            <value name="restockQuantity">7</value>
+        </row>
+        <row name="products">
+            <value name="id">15</value>
+            <value name="description">candle</value>
+            <value name="price">1.99</value>
+            <value name="quantityInStock">100</value>
+            <value name="restockQuantity">105</value>
+        </row>
+
+    </table>
+</dataset>

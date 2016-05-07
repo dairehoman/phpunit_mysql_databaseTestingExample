@@ -1,0 +1,7 @@
+TAP version 13
+ok 1 - ItbTest\ProductDBTest::testNumRowsFromSeedData
+ok 2 - ItbTest\ProductDBTest::testRowCountAfterDeleteOne
+ok 3 - ItbTest\ProductDBTest::testGetAllAsObjectArray
+ok 4 - ItbTest\ProductDBTest::testDatabaseContainsNewlyInsertedProduct
+ok 5 - ItbTest\ProductDBTest::testGetAllAsAssociativeArray
+1..5
