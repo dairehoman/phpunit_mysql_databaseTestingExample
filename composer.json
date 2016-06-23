@@ -5,7 +5,7 @@
     }
   },
   "scripts":{
-    "phpunit":"php phpunit.phar --log-tap ./tests/log.txt",
+    "phpunit":"./vendor/bin/phpunit --log-tap ./tests/log.txt",
     "phpunit-coverage":"php phpunit.phar --coverage-html ./tests/coverage",
 
     "reportfixsrc":"php php-cs-fixer.phar fix --level=psr2 --dry-run --diff ./src > ./tests/fixerReport.txt",

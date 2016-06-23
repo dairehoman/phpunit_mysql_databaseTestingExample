@@ -53,6 +53,8 @@ Note - I use 'travis' as user so that all I have to do is remove the password an
 # Step 6 - convert the XML to the one PHPUnit understands
 (see separate document for these steps)
 
+[README_convertXml.md](README_convertXml.md)
+
 # Step 7 - ```seed.xml``` represents the 'starting point' for each of your database tests
 
 if you have tests where are you comparing the state of the database AFTER some action(s),
@@ -94,4 +96,7 @@ write the following for theses 2 methods:
 
 you can now write your tests - see the examples and PHPUnit documents for ways to test DB methods
 
+[README_exampleTestMethods.md](README_exampleTestMethods.md)
+
+.. matt ..
 
